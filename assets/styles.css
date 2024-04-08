@@ -1,0 +1,158 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    color: #EAEAEA;
+}
+
+body {
+  background-color: #050404;
+}
+
+header {
+  display: flex;
+  border-bottom: #EAEAEA ridge;
+  width: 100vw;
+  height: 160px;
+  align-items: center;
+  justify-content: space-around;
+  
+}
+
+
+
+header img {
+  width: 220px;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  gap: 100px;
+}
+
+nav ul a {
+  text-decoration: none;
+}
+
+nav ul li {
+  display: flex;
+  text-transform: uppercase;
+  
+}
+
+nav ul li:hover {
+  color: green;
+}
+
+
+
+.aside-icon {
+  margin-left: 1100px;
+  margin-top: 100px;
+ 
+}
+
+.aside-news {
+  position: absolute;
+  margin-left: 300px;
+  margin-top: 100px;
+}
+
+.aside-news p {
+  max-width: 380px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+
+
+.aside-news h1 {
+  font-size: 50px;
+  max-width: 500px;
+}
+
+.aside-news span {
+ color: #4A1942;
+}
+
+button {
+  background-color: #4A1942;
+  width: 60px;
+  height: 32px;
+  border-radius: 5px;
+ 
+}
+
+button:hover {
+  background-color: green;
+  cursor: pointer;
+}
+
+input {
+  height: 28px;
+  outline: none;
+  color: black;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  margin-top: 200px;
+  margin-bottom: 20px;
+}
+
+form {
+display: flex;
+flex-direction: column;
+margin-left: 650px;
+margin-top: 200px;
+}
+
+form .name {
+  border: 1px solid #fcfcfc;
+  color: #060606;
+  border-radius: 7px;
+  font-size: 16px;
+  padding: 7px 37px;
+  width: 600px;
+  margin-bottom: 23px;
+}
+
+form .email {
+  border: 1px solid #fcfcfc;
+  color: #060606;
+  border-radius: 7px;
+  font-size: 16px;
+  padding: 7px 37px;
+  width: 600px;
+  margin-bottom: 23px;
+}
+
+
+textarea {
+  border: 1px solid #fcfcfc;
+  color: #060606;
+  border-radius: 7px;
+  font-size: 16px;
+  padding: 7px 37px;
+  width: 600px;
+  margin-bottom: 23px;
+  height: 400px;
+  outline: none;
+}
+
+.btn-input {
+  border: 1px solid #fcfcfc;
+  color: #060606;
+  border-radius: 7px;
+  font-size: 16px;
+  width: 120px;
+
+}
+
+.title-form {
+  display: flex;
+  margin-bottom: 30px;
+}
